@@ -3,10 +3,16 @@
     src: url('DIN.ttf');
 }
 
-
 html, body {
   color: black;
-  background-color: white
+  background-color: white;
+  font-family: helvetica neue;
+  min-height: 100% !important;
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
 }
 
 input {
@@ -16,6 +22,9 @@ input {
   font-size: 17px;
 }
 
+a {
+  color: #DC490D;
+}
 
 input::-webkit-input-placeholder {
     color: black;
@@ -23,8 +32,9 @@ input::-webkit-input-placeholder {
     text-align: center;
     font-size: 17px;
 }
+
 input:-moz-placeholder {
-    color:   black;
+    color: black;
     text-align: center;
     font-weight: bold;
     font-size: 17px;
@@ -35,45 +45,42 @@ input:-ms-input-placeholder {
     font-weight: bold;
     text-align: center;
     font-size: 17px;
-
 }
-input:focus::-webkit-input-placeholder {
-    color:    black;
-        text-align: center;
 
+input:focus::-webkit-input-placeholder {
+    color: black;
+    text-align: center;
     font-weight: bold;
     font-size: 17px;
 }
 input:focus:-moz-placeholder {
     color:  black;
-        text-align: center;
-
+    text-align: center;
     font-weight: bold;
     font-size: 17px;
 }
 input:focus:-ms-input-placeholder {
-    color:   black;
-        text-align: center;
-
+    color: black;
+    text-align: center;
     font-weight: bold;
     font-size: 17px;
 }
-
 
 .rouge {
   color: #DC490D;
 }
 
 .gris {
-    color: #818181;
+  color: #818181;
 }
 
-
-.centertext{
+.centertext {
   text-align: center;
 }
 
-
+.landing-container {
+  height: 100%;
+}
 
 .list-container{
   width: 66%;
@@ -82,10 +89,9 @@ input:focus:-ms-input-placeholder {
 
 .super {
   font-size: 30px;
-  padding-left: 30px;
+  text-align: center;
   width: 100%;
-  margin-bottom: 0;
-  height: 60px;
+  margin-top: 40px;
   font-family: helvetica neue;
   font-weight: 600;
   letter-spacing: 2.35px;
@@ -93,23 +99,67 @@ input:focus:-ms-input-placeholder {
 
 .maintagline {
   font-size: 22px;
-  padding-left: 30px;
-  margin-top: -10px;
-  font-family: "Helvetica Neue";
+  text-align: center;
+  font-family: DINp;
+  color: #818181;
+  text-transform: uppercase;
 }
 
+.become {
+  width: 300px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.section-header {
+  font-size:34px;
+  padding: 13px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.stylists {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.stylist {
+  width: 22% !important;
+  display: inline-block;
+  margin: 1px;
+}
+
+.stylist-image {
+  width: 100%;
+}
+<div class=​"stylists">​
+.image-caption {
+  display: none;
+  position:absolute;
+  bottom:0;
+  /* width:22%; */
+  padding: 10px;
+  background-color: rgba(0,0,0,.6);
+  text-align: center;
+  height: 30px;
+  padding-top: 17px;
+}
 
 
 #thanks{
   position: absolute;
-bottom: 0;
-width: 100%;
-text-align: center;
-color: white;
-background-color: rgba(0,0,0,.6);
-font-size: 30px;
-height: 70px;
-padding-top: 11px;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: rgba(0,0,0,.6);
+  font-size: 30px;
+  height: 70px;
+  padding-top: 11px;
 }
 
 .width20{
@@ -231,12 +281,18 @@ ol.simple-list > li:before {
 }
 
 
-.form-wrapper{
-  position:absolute;bottom:0;width: 100%;padding: 10px;background-color: rgba(0,0,0,.6);text-align: center;height: 75px;padding-top: 17px;
+.form-wrapper {
+  position:absolute;
+  bottom:0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(0,0,0,.6);
+  text-align: center;
+  height: 75px;
+  padding-top: 17px;
 }
 
-
-.DIN{
+.DIN {
   font-family: DINp;
 }
 

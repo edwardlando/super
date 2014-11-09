@@ -1,21 +1,54 @@
 <template name="landingpage">
-
   <div class="landing-container">
-      <span class="super rouge">
+    <div class="header">
+      <div class="become">
+        <span class="question">Have exceptional taste?</span>
+        <a href="" class="becomebutton rouge">
+          Become a stylist
+        </a>
+      </div>
+      <div class="super rouge">
         super
-      </span>
+      </div>
+      <div class="maintagline">
+        Everyone's private stylist.
+      </div>
+    </div>
 
-      <span class="maintagline gris DIN">
-        EVERYONE'S PRIVATE STYLIST.
-      </span>
-      
+    <h2 class="section-header centertext rouge DIN">Request a specific stylist</h2>
+
+    <div class="stylists">
       <div class="stylist">
-        <p>Have exceptional taste?</p>
-        <input type="submit" class="mainbutton btn" value="Become a stylist">
+        <img class="stylist-image" src="man1.png"/>
+        <div class="image-caption"><a href="">Michael, the dandy</a></div>
       </div>
 
-      <div class="form-container center-block">
+      <div class="stylist">
+        <img class="stylist-image" src="woman1.png"/>
+        <div class="image-caption"><a href="">Veronica, the lady</a></div>
+      </div>
 
+      <div class="stylist">
+        <img class="stylist-image" src="man2.png"/>
+        
+        <div class="image-caption">
+          <a href="">William the philosophe</a>
+        </div>
+      </div>
+
+      <div class="stylist">
+        <img class="stylist-image" src="woman2.png"/>
+        <div class="image-caption">
+          <a href="">Rebecca, the Parisienne</a>
+        </div> 
+      </div>
+
+    </div>
+
+
+
+    
+      <div class="form-container center-block">
           <form id="user-form" action="action">
                <div class="form-wrapper">
                   <input id="user-name" class="fillin medium" placeholder="Name" required>
