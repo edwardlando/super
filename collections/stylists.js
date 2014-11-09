@@ -1,0 +1,1 @@
+Stylists = new Mongo.Collection('stylists');

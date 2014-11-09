@@ -1,49 +1,13 @@
-<template name="landingpage">
+<template name="landingPage">
   <div class="landing-container">
-    <div class="header">
-      <div class="become">
-        <span class="question">Have exceptional taste?</span>
-        <a href="" class="becomebutton rouge">
-          Become a stylist
-        </a>
-      </div>
-      <div class="super rouge">
-        super
-      </div>
-      <div class="maintagline">
-        Everyone's private stylist.
-      </div>
-    </div>
-
     <h2 class="section-header centertext rouge DIN">Request a specific stylist</h2>
 
     <h4 class="gris centertext section-subheader">See someone whose style you like? Request them as your personal stylist.</h4>
 
     <div class="stylists">
-      <div class="stylist">
-        <img class="stylist-image" src="man1.png"/>
-        <div class="image-caption"><a href="">Michael, the dandy</a></div>
-      </div>
-
-      <div class="stylist">
-        <img class="stylist-image" src="woman1.png"/>
-        <div class="image-caption"><a href="">Veronica, the lady</a></div>
-      </div>
-
-      <div class="stylist">
-        <img class="stylist-image" src="man2.png"/>
-        
-        <div class="image-caption">
-          <a href="">William, the philosophe</a>
-        </div>
-      </div>
-
-      <div class="stylist">
-        <img class="stylist-image" src="woman2.png"/>
-        <div class="image-caption">
-          <a href="">Rebecca, the Parisienne</a>
-        </div> 
-      </div>
+      {{#each stylists}}
+        {{> stylist}}
+      {{/each}}
     </div>
 
     <h2 class="section-header centertext DIN gris" style="margin-bottom: 5px !important;">Or</h2>
