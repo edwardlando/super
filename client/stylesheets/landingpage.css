@@ -1,0 +1,280 @@
+@font-face {
+    font-family: DINp;
+    src: url('DIN.ttf');
+}
+
+
+html, body {
+  color: black;
+  background-color: white
+}
+
+input {
+  color: black;
+  border:0;
+  padding: 10px;
+  font-size: 17px;
+}
+
+
+input::-webkit-input-placeholder {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 17px;
+}
+input:-moz-placeholder {
+    color:   black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+input:-ms-input-placeholder {
+    color:bla ck;
+    font-weight: bold;
+    text-align: center;
+    font-size: 17px;
+
+}
+input:focus::-webkit-input-placeholder {
+    color:    black;
+        text-align: center;
+
+    font-weight: bold;
+    font-size: 17px;
+}
+input:focus:-moz-placeholder {
+    color:  black;
+        text-align: center;
+
+    font-weight: bold;
+    font-size: 17px;
+}
+input:focus:-ms-input-placeholder {
+    color:   black;
+        text-align: center;
+
+    font-weight: bold;
+    font-size: 17px;
+}
+
+
+.rouge {
+  color: #DC490D;
+}
+
+.gris {
+    color: #818181;
+}
+
+
+.centertext{
+  text-align: center;
+}
+
+
+
+.list-container{
+  width: 66%;
+  margin:0 auto;
+}
+
+.super {
+  font-size: 30px;
+  padding-left: 30px;
+  width: 100%;
+  margin-bottom: 0;
+  height: 60px;
+  font-family: helvetica neue;
+  font-weight: 600;
+  letter-spacing: 2.35px;
+}
+
+.maintagline {
+  font-size: 22px;
+  padding-left: 30px;
+  margin-top: -10px;
+  font-family: "Helvetica Neue";
+}
+
+
+
+#thanks{
+  position: absolute;
+bottom: 0;
+width: 100%;
+text-align: center;
+color: white;
+background-color: rgba(0,0,0,.6);
+font-size: 30px;
+height: 70px;
+padding-top: 11px;
+}
+
+.width20{
+  width: 19%;
+}
+
+.width40{
+  width: 39%;
+}
+
+
+.fillin {
+  height:40px;
+}
+
+.medium {
+  width: 150px;
+}
+
+.big {
+  width: 300px;
+}
+
+.mainbutton {
+  font-size: 20px;
+  height: 42px;
+  margin-top: -4px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  color: white;
+  font-family: "Helvetica Neue";
+  text-align: center;
+  background-color: #DC490D;
+}
+
+.mainbutton:hover {
+  color: white;
+  background-color: #88DBE9;
+}
+
+
+
+
+
+.form-container {
+
+
+  background-size: 100%;
+  background-position: top center;
+  width: auto;
+  padding-top: 20px;
+  height: 520px;
+  position: relative;
+
+}
+
+
+
+.absolute {
+  position: absolute;
+}
+
+.bottom {
+  bottom: 5px;
+  left: 0;
+  right: 0;
+}
+
+.text-center{
+  text-align: center;
+}
+
+
+ol.simple-list {
+    list-style-type: none;
+    list-style-type: decimal !ie; /*IE 7- hack*/
+
+    margin: 0;
+    margin-left: 3em;
+    padding: 0;
+
+    counter-reset: li-counter;
+}
+ol.simple-list > li{
+  font-size: 17px;
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 0.5em;
+    min-height: 3em;
+    padding-top: 4px;
+    /*border-left: 2px solid #CCCCCC;*/
+}
+ol.simple-list > li:before {
+    position: absolute;
+    top: 0;
+    left: -1em;
+    width: 0.8em;
+
+    font-size: 3em;
+    line-height: 1;
+    font-weight: bold;
+    text-align: right;
+    color: #DC490D ;
+
+    content: counter(li-counter);
+    counter-increment: li-counter;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+.bold{
+  font-weight: bold;
+}
+.orange{
+  color: #FF6622;;
+}
+
+
+.form-wrapper{
+  position:absolute;bottom:0;width: 100%;padding: 10px;background-color: rgba(0,0,0,.6);text-align: center;height: 75px;padding-top: 17px;
+}
+
+
+.DIN{
+  font-family: DINp;
+}
+
+
+@media (max-width: 600px) {
+  .mainbutton {
+    width: 90%;
+  }
+
+  .form-wrapper{
+    height: 206px
+  }
+
+  .form-container{
+    height: 330px;
+  }
+
+  .medium{
+    width: 300px;
+  }
+
+  input{
+    margin: 2px 0;
+  }
+
+  .maintagline {
+  font-size: 20px;
+  padding: 0 6px;
+  }
+
+ .mainbutton{
+  margin-top: 8px;
+ }
+
+
+}
+
+
+
+
+
