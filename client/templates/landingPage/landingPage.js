@@ -3,8 +3,8 @@ if (Meteor.isClient) {
 }
 
 
-Template.landingpage.rendered = function(){
-$('input.phone_number').formance('format_phone_number');
+Template.landingPage.rendered = function(){
+    $('input.phone_number').formance('format_phone_number');
 };
 
 Template.landingpage.events({

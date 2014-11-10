@@ -7,3 +7,5 @@ meteor-platform
 insecure
 coffeescript
 iron:router
+sacha:spin
+
