@@ -1,3 +1,17 @@
 <template name="stylistPage">
-  {{> stylistItem}}
+    <div class="profile-top">
+	    <div class="left-top">
+			<img class="profile-image" align="center" src="/{{ this.imageLink}} "/>
+		</div>
+		<div class="right-top">
+			<div class="full-name gris">{{ this.fullName }}</div>
+			<div class="bio">{{ this.bio }}</div>
+		</div>
+	</div>
+	<div class="profile-photos">
+		<img class="inspiration-image" src="/inspiration1.png"/>
+		<img class="inspiration-image" src="/inspiration2.png "/>
+		<img class="inspiration-image" src="/inspiration3.png"/>
+	</div>
+
 </template>

@@ -12,3 +12,5 @@ Router.route('/stylists/:_id', {
 	data: function() { return Stylists.findOne(this.params._id); }
 });
 
+Router.onBeforeAction('dataNotFound', {only: 'stylistPage'});
+
