@@ -1,4 +1,4 @@
-Template.landingPage.rendered = function(){
+Template.stylistPage.rendered = function(){
     $('input.phone_number').formance('format_phone_number');
 };
 
