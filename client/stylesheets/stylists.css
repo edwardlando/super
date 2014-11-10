@@ -7,6 +7,7 @@
 	width: 600px;
 	margin: 0 auto;
 	margin-top: 20px;
+	margin-bottom: 50px;
 }
 
 .left-top, .right-top {
@@ -26,6 +27,28 @@
 	font-size: 26px;
 }
 
+.request-stylist {
+	margin-top: 20px;
+}
+
 .inspiration-image {
 	width: 260px;
+}
+
+.profile-photos {
+	width: 100%;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.profile-question {
+	text-align: left;
+	font-size: 20px;
+	padding-left: 140px;
+}
+
+.profile-answer {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 26px;
 }
