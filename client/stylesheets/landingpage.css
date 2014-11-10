@@ -149,19 +149,6 @@ input:focus:-ms-input-placeholder {
   padding-top: 5px;
 }
 
-
-#thanks{
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  color: white;
-  background-color: rgba(0,0,0,.6);
-  font-size: 30px;
-  height: 70px;
-  padding-top: 11px;
-}
-
 .width20{
   width: 19%;
 }

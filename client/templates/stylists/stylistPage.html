@@ -1,0 +1,36 @@
+<template name="stylistPage">
+    <div class="profile-top">
+	    <div class="left-top">
+			<img class="profile-image" align="center" src="/{{ this.imageLink}} "/>
+		</div>
+		<div class="right-top">
+			<div class="full-name gris">{{ this.fullName }}</div>
+			<div class="bio">{{ this.bio }}</div>
+			<input id="request" class="mainbutton btn request-stylist" value="Request {{ this.fullName }} as your stylist" style="height:48px; width: 400px;">
+		</div>
+		<form id="request-form" style="display:none;">
+            <input id="user-name" class="fillin medium" placeholder="Name" required>
+            <input id="user-cell" class="phone_number fillin medium" placeholder="Cell #" required>
+            <input id="user-email" type="email" class="fillin big" placeholder="Email" required>
+            <input id="stylist-requested" style="display:none;" value="{{ this.fullName }}">
+            <input type="submit" class="mainbutton btn" value="Submit" style="height:64px;">
+        </form>
+        <div id="thanks" style="display:none;">
+	        <p>Thank you! Your stylist will soon be in touch.</p>
+        </div>
+	</div>
+	<div class="profile-define">
+		<h2 class="profile-question rouge">How would you define your style?</h2>
+		<p class="profile-answer gris">Modern chic, unpretentious but dressy. I am nostalgic for the 20s.</p>
+	</div>
+	<h2 class="profile-question rouge">Pick a few photos that define your style.</h2>
+	<div class="profile-photos">
+		<img class="inspiration-image" src="/inspiration1.png"/>
+		<img class="inspiration-image" src="/inspiration2.png "/>
+		<img class="inspiration-image" src="/inspiration3.png"/>
+	</div>
+	<div class="profile-define">
+		<h2 class="profile-question rouge">What are your favorite brands?</h2>
+		<p class="profile-answer gris">Dior, Yves Saint Laurent, Chanel, Prada, Sandro, The Kooples</p>
+	</div>
+</template>

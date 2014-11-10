@@ -1,18 +1,19 @@
-if (Meteor.isClient) {
-    Meteor.subscribe('people');
-}
-
-
 Template.landingPage.rendered = function(){
     $('input.phone_number').formance('format_phone_number');
 };
 
-Template.landingPage.events({
-    'submit #user-form': function(e, t) {
-     e.preventDefault();
+Template.stylistPage.events({
+    'click #request':function(event){
+       $('#request-form').show();
+       $('#request').hide();
+    },
+
+    'submit #request-form': function(e, t) {
+        e.preventDefault();
         var name = t.find('#user-name').value,
             cell = t.find('#user-cell').value,
-            email = t.find('#user-email').value;
+            email = t.find('#user-email').value,
+            stylistRequested = t.find('#stylist-requested').value;
 
         if (name === '' || cell === '' || email === '') {
             alert('Please fill all fields.');
@@ -21,9 +22,10 @@ Template.landingPage.events({
                 name: name,
                 cell: cell,
                 email: email,
+                stylistRequested: stylistRequested,
                 createdAt: new Date()
             }, function(){
-                $('#user-form').hide();
+                $('#request-form').hide();
                 $('#thanks').show();
             });
 
