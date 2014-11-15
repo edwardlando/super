@@ -7,6 +7,8 @@ Router.configure({
 
 Router.route('/', {name: 'landingPage'});
 
+Router.route('/complete', {name: 'complete'});
+
 Router.route('/stylists/:_id', {
 	name: 'stylistPage',
 	data: function() { return Stylists.findOne(this.params._id); }
