@@ -1,0 +1,123 @@
+input {
+  color: #C5C5C5;
+  border: 1px solid #C5C5C5;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 4px;
+}
+
+input::-webkit-input-placeholder {
+    color: #C5C5C5;
+    text-align: center;
+    font-size: 18px;
+}
+input:-moz-placeholder {
+    color: #C5C5C5;
+    text-align: center;
+    font-size: 18px;
+}
+
+input:-ms-input-placeholder {
+    color: #C5C5C5;
+    text-align: center;
+    font-size: 18px;
+
+}
+input:focus::-webkit-input-placeholder {
+    color: #E2E2E2;
+    text-align: center;
+    font-size: 18px;
+}
+input:focus:-moz-placeholder {
+    color: #E2E2E2;
+    text-align: center;
+    font-size: 18px;
+}
+input:focus:-ms-input-placeholder {
+    color: #E2E2E2;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+input:focus {
+    outline: none !important;
+    border: 1px solid #64BDDE;
+
+}
+
+#signup {
+  height: 72px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  color: white;
+  text-align: center;
+  background-color: #64BDDE;
+  width: 572px;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+#signup:hover {
+  background-color: #69D2F9;
+}
+
+
+.main {
+  width: 550px;
+  font-size: 22px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  text-align: center;
+  line-height: 5px;
+}
+
+.form-row {
+	width: 100%;
+	display: block;
+	margin-bottom: 5px;
+}
+
+#user-form input {
+	display: inline-block;
+	text-align: center;
+	height: 50px;
+	-webkit-appearance: none;
+	box-shadow: none !important;
+}
+
+#first-name, #last-name, #exp-month, #exp-year {
+	width: 262px;
+}
+
+#mobile-number, #email, #postal {
+	width: 550px;
+}
+
+#card-number {
+	width: 393px;
+}
+
+#cvc {
+	width: 131px;
+}
+
+
+
+
+@media (max-width: 600px) {
+
+	.main { 
+		width: 80%;
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+}

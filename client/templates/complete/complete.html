@@ -1,3 +1,49 @@
 <template name="complete">
-	<h1>Complete</h1>
+	<p class="super">
+		super
+	</p>
+
+	<p class="maintagline">
+		You’re one click away from a major upgrade.  
+	</p>
+
+	<div class="main">
+        <p>Sign up to start chatting instantly with your advisor.</p>
+        <p>$50/week. Cancel anytime.</p>
+    </div>
+
+	<div id="form-container center-block">
+	    <form id="user-form" action="action">
+		    <div class="form-row">
+		    	<input id="first-name" placeholder="First Name" required>
+		    	<input id="last-name" placeholder="Last Name" required>
+		    </div>
+		    <div class="form-row">
+		    	<input id="mobile-number" class="phone_number" placeholder="Mobile Number" required>
+		    </div>
+		    <div class="form-row">
+			    <input id="email" placeholder="Email" required>
+		    </div>
+
+		    <!-- Stripe -->
+		    <!-- <form action="" method="POST" id="payment-form"> -->
+            <!-- <input type="text" size="2" data-stripe="exp-month" placeholder="MM"/> -->
+            <span class="payment-errors"></span>
+            <div class="form-row">
+               <input id="card-number" type="text" data-stripe="number" placeholder="Card Number"/>
+               <input id="cvc" type="text" data-stripe="cvc" placeholder="CVC"/>
+            </div>
+
+            <div class="form-row">
+                <input type="text" id="exp-month" data-stripe="exp-month" placeholder="MM"/>
+                <input type="text" id="exp-year" data-stripe="exp-year" placeholder="YYYY"/>
+            </div>
+
+		    <!-- End Stripe -->
+            <div class="form-row">
+    	        <input id="postal" type="form-row-input email" class="" placeholder="Postal Code" required>
+            </div>
+	        <button type="submit" id="signup">Sign Up</button>
+        </form>
+	</div>
 </template>

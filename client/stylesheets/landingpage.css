@@ -9,55 +9,10 @@ html, body {
   font-family: "Helvetica Neue";
 }
 
-input::-webkit-input-placeholder {
-    color: #999999;
-    text-align: center;
-    font-size: 18px;
-}
-input:-moz-placeholder {
-    color: #999999;
-    text-align: center;
-    font-size: 18px;
-}
 
-input:-ms-input-placeholder {
-    color: #999999;
-    text-align: center;
-    font-size: 18px;
 
-}
-input:focus::-webkit-input-placeholder {
-    color: #E2E2E2;
-    text-align: center;
-    font-size: 18px;
-}
-input:focus:-moz-placeholder {
-    color: #E2E2E2;
-    text-align: center;
-    font-size: 18px;
-}
-input:focus:-ms-input-placeholder {
-    color: #E2E2E2;
-    text-align: center;
-    font-weight: bold;
-    font-size: 18px;
-}
 
-input:focus {
-    outline: none !important;
-    border: 1px solid #64BDDE;
-
-}
-
-input {
-  color: #999999;
-  border: 1px solid #999999;
-  padding: 10px;
-  font-size: 18px;
-  border-radius: 8px;
-}
-
-#super {
+.super {
   font-size: 30px;
   width: 100%;
   text-align: center;
@@ -69,12 +24,12 @@ input {
   letter-spacing: 9.35px;
 }
 
-#maintagline {
+.maintagline {
   font-size: 16px;
   text-align: center;
 }
 
-#introduction {
+.introduction {
   width: 450px;
   font-size: 22px;
   margin: 0 auto;
@@ -88,17 +43,6 @@ input {
   width: 100%;
   margin: 0 auto;
   margin-top: 80px;
-}
-
-#user-form input {
-  width: 300px;
-  text-align: center;
-  margin: 0 auto;
-  height: 60px;
-  margin-bottom: 10px;
-  display: block;
-  -webkit-appearance: none;
-  box-shadow: none !important;
 }
 
 #try-it-out {
@@ -123,6 +67,7 @@ input {
   text-decoration: none;
   padding: 20px 70px 20px 70px;
 }
+
 
 
 
@@ -152,7 +97,7 @@ input {
     height: 330px; 
   }
 
-  #introduction { 
+  .introduction { 
     width: 80%;
     font-size: 16px;
 

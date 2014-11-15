@@ -3,9 +3,6 @@ if (Meteor.isClient) {
 }
 
 
-Template.landingPage.rendered = function(){
-    $('input.phone_number').formance('format_phone_number');
-};
 
 Template.landingPage.events({
     'submit #user-form': function(e, t) {
