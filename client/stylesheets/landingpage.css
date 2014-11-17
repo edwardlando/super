@@ -25,24 +25,33 @@ html, body {
 }
 
 .maintagline {
-  font-size: 16px;
+  font-size: 22px;
   text-align: center;
 }
 
 .introduction {
   width: 450px;
-  font-size: 22px;
+  font-size: 18px;
   margin: 0 auto;
   margin-top: 40px;
   margin-bottom: 60px;
   text-align: justify;
 }
 
+.rules {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.left, .right {
+  display: inline-block;
+}
+
 #user-form {
   text-align: center;
   width: 100%;
   margin: 0 auto;
-  margin-top: 80px;
+  margin-top: 20px;
 }
 
 #try-it-out {

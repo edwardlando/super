@@ -46,6 +46,58 @@ input:focus {
 
 }
 
+.advisor {
+  text-align: center;
+}
+
+.profile {
+  display: inline-block;
+}
+
+.profile-top {
+  width: 700px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.left-top, .right-top {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.right-top {
+  width: 50%;
+  text-align: left;
+}
+
+.left-top {
+  margin-right: 15px;
+}
+
+.full-name {
+    font-size: 28px;
+}
+
+.meet {
+  font-size: 22px;
+  text-align: center;
+}
+
+.oneclick {
+  font-size: 18px;
+  text-align: center;
+}
+
+
+
+.bio {
+  font-size: 18px;
+  /* width: 60%; */
+}
+
+
 #signup {
   height: 72px;
   margin-top: 20px;
@@ -93,11 +145,11 @@ input:focus {
 	box-shadow: none !important;
 }
 
-#first-name, #last-name, #exp-month, #exp-year {
+#first-name, #last-name, #exp-month, #exp-year, #referrer-name, #mobile-number {
 	width: 262px;
 }
 
-#mobile-number, #email, #postal {
+#email, #postal {
 	width: 550px;
 }
 

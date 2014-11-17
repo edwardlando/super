@@ -3,14 +3,33 @@
 		super
 	</p>
 
-	<p class="maintagline">
+	
+    <div class="meet">Meet your lifestyle advisor</div>
+
+	<div class="profile-top">
+	    <div class="left-top">
+			<img class="profile-image profile" src="Edward.jpg"/>
+		</div>
+		<div class="right-top">
+			<div class="full-name">Edward Lando</div>
+			<div class="bio">Wharton grad, originally from Paris, loves good food, wine, clothes, experiences. Bon vivant and wants to share it with you.</div>
+		</div>
+	</div>
+	
+
+	<div class="main">
+	   <p>Unlimited texts and calls with Edward.</p>
+	   <p>$50/week. Cancel anytime.</p>
+	   <p>Join the waitlist.</p>
+
+       <!--  <p>Sign up to start chatting instantly with Edward.</p>
+        <p>$50/week. Cancel anytime.</p> -->
+    </div>
+
+    <p class="oneclick">
 		You’re one click away from a major upgrade.  
 	</p>
 
-	<div class="main">
-        <p>Sign up to start chatting instantly with your advisor.</p>
-        <p>$50/week. Cancel anytime.</p>
-    </div>
 
 	<div id="form-container center-block">
 	    <form id="user-form" action="action">
@@ -19,6 +38,7 @@
 		    	<input id="last-name" placeholder="Last Name" required>
 		    </div>
 		    <div class="form-row">
+		        <input id="referrer-name" placeholder="Who Referred You? (optional)">
 		    	<input id="mobile-number" class="phone_number" placeholder="Mobile Number" required>
 		    </div>
 		    <div class="form-row">
@@ -43,6 +63,11 @@
             <div class="form-row">
     	        <input id="postal" type="form-row-input email" class="" placeholder="Postal Code" required>
             </div>
+
+            <div class="form-row" id="agree">
+	            By Clicking “Sign Up” below, you are agreeing to the Super <br/> Terms and Conditions and Privacy Policy
+            </div>
+
 	        <button type="submit" id="signup">Sign Up</button>
         </form>
 	</div>

@@ -3,29 +3,6 @@
 	border-radius: 500px;
 }
 
-.profile-top {
-	width: 600px;
-	margin: 0 auto;
-	margin-top: 20px;
-	margin-bottom: 50px;
-}
-
-.left-top, .right-top {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.left-top {
-	margin-right: 15px;
-}
-
-.full-name {
-    font-size: 42px;
-}
-
-.bio {
-	font-size: 26px;
-}
 
 .request-stylist {
 	margin-top: 20px;
