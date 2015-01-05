@@ -6,10 +6,26 @@
 html, body {
   color: #C5C5C5;
   background-color: white;
-  font-family: "Helvetica Neue";
+  font-family: "Arial";
 }
 
+ul {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
 
+li { 
+    padding-left: 1em; 
+    text-indent: -.7em;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+li:before {
+    content: "• ";
+    color: #CA9036; /* color of bullets */
+}
 
 
 .super {
@@ -18,7 +34,7 @@ html, body {
   text-align: center;
   margin-top: 40px;
   margin-bottom: 10px;
-  color: #64BDDE;
+  color: #CA9036;
   font-family: Montserrat-Regular;
   text-transform: uppercase;
   letter-spacing: 9.35px;
@@ -26,22 +42,27 @@ html, body {
 
 .maintagline {
   font-size: 22px;
+  font-weight: bold;
   text-align: center;
 }
 
 .introduction {
   width: 450px;
   font-size: 18px;
+  font-weight: bold;
   margin: 0 auto;
   margin-top: 40px;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   text-align: justify;
 }
 
-.rules {
-  width: 1200px;
+.bullets {
+  width: 300px;
   margin: 0 auto;
+  text-align: left;
+  margin-bottom: 60px;
 }
+
 
 .left, .right {
   display: inline-block;
@@ -70,6 +91,7 @@ html, body {
   cursor: pointer;
   outline: none;
   border-radius: 3px;
+  margin-bottom: 200px;
   color: white;
   text-align: center;
   background-color: #64BDDE;
@@ -98,6 +120,7 @@ html, body {
 .width40 {
   width: 39%;
 }
+
 
 
 @media (max-width: 600px) {

@@ -77,11 +77,13 @@ input:focus {
 }
 
 .full-name {
-    font-size: 28px;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 .meet {
   font-size: 22px;
+  font-weight: bold;
   text-align: center;
 }
 

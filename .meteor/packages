@@ -8,4 +8,10 @@ insecure
 coffeescript
 iron:router
 sacha:spin
+meteorhacks:stripe
+mrgalaxy:stripe
+stripe
+meteorhacks:npm
 
+
+npm-container
